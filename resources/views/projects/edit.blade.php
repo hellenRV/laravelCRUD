@@ -9,14 +9,14 @@
         <div class="field">
             <label class="label" for="title">Title</label>
             <div class="control">
-                <input type="text" class="input" name="title" placeholder="Title" value="{{ $project->title }}">
+                <input type="text" class="input" name="title" placeholder="Title" value="{{ $project->title }}" required>
             </div>
         </div>
 
         <div class="field">
             <label class="label" for="description">Description</label>
             <div class="control">
-                <input type="text" class="input" name="description" placeholder="Description" value="{{ $project->description }}">
+                <input type="text" class="input" name="description" placeholder="Description" value="{{ $project->description }}" required>
             </div>
         </div>
 
